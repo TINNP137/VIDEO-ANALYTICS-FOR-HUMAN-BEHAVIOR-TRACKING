@@ -1,0 +1,12 @@
+tensorflow-gpu==2.3.0
+opencv-python==4.5.4.60
+cmapy==0.6.6
+lxml
+tqdm
+absl-py
+matplotlib
+easydict
+pillow
+imutils ==0.5.4
+scipy==1.4.1
+numpy==1.19.5
