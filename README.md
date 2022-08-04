@@ -26,6 +26,7 @@ Object tracking implemented with YOLOv4, DeepSort, and TensorFlow. The code is i
     # Convert darknet weights to tensorflow model
     python save_model.py --model yolov4 
     # save yolov4-tiny model
-python save_model.py --weights ./data/yolov4-tiny.weights --output ./checkpoints/yolov4-tiny-416 --model yolov4 --tiny
+    python save_model.py --weights ./data/yolov4-tiny.weights --output ./checkpoints/yolov4-tiny-416 --model yolov4 --tiny
   ```
+  
 
