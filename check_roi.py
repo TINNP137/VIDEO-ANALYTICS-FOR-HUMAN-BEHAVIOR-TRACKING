@@ -93,7 +93,7 @@ for i in range(0, len(allxy)):
 resize = ResizeWithAspectRatio(image, width=1280) # Resize by width OR
 # resize = ResizeWithAspectRatio(image, height=1280) # Resize by height
 cv2.imshow('resize', resize)
-# cv2.imwrite('./data/video/cafetefria_ground.png',image)
+cv2.imwrite('./data/video/cafetefria_ground.png',image)
 
 
 cv2.waitKey()
