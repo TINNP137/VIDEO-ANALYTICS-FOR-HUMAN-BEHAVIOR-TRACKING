@@ -18,7 +18,7 @@ def ResizeWithAspectRatio(image, width=None, height=None, inter=cv2.INTER_AREA):
 
     return cv2.resize(image, dim, interpolation=inter)
 # Load image
-image = cv2.imread('cafetefria_ground.png')
+image = cv2.imread('./data/helpers/cafetefria_ground.png')
 
 # Create a window
 cv2.namedWindow('image')
