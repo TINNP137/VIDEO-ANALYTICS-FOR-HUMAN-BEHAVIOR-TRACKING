@@ -42,7 +42,7 @@ Object tracking implemented with YOLOv4, DeepSort, and TensorFlow. The code is i
   
   ** don't forget to edit some variable in the code to suit your project
   ```bash
-  python check_roi.py
+    python check_roi.py
   ```
   Fill the polygon result: 
   ![Cafeteria ground](https://github.com/TINNP137/VIDEO-ANALYTICS-FOR-HUMAN-BEHAVIOR-TRACKING/blob/main/data/helpers/cafetefria_ground.png)
@@ -50,5 +50,14 @@ Object tracking implemented with YOLOv4, DeepSort, and TensorFlow. The code is i
 
 ## Image masking
   Find the right hsv value to mask an image 
+  ```bash
+    python HSV_color_thresholder.py
+  ```
+  Result:
   ![Masking](https://github.com/TINNP137/VIDEO-ANALYTICS-FOR-HUMAN-BEHAVIOR-TRACKING/blob/main/data/helpers/cafeteria_hsv.png)
+  Then write down the lower range and upper range of the HSV value. We're using it in the following file
+  ```bash
+    python thresh_floor_green.py
+  ```
+
 
