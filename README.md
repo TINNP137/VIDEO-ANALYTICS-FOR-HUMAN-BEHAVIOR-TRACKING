@@ -44,7 +44,11 @@ Object tracking implemented with YOLOv4, DeepSort, and TensorFlow. The code is i
   ```bash
   python check_roi.py
   ```
-  Fill the polygon result 
-  ![Cafeteria no people](https://github.com/TINNP137/VIDEO-ANALYTICS-FOR-HUMAN-BEHAVIOR-TRACKING/blob/main/data/helpers/cafetefria_ground.png)
+  Fill the polygon result: 
+  ![Cafeteria ground](https://github.com/TINNP137/VIDEO-ANALYTICS-FOR-HUMAN-BEHAVIOR-TRACKING/blob/main/data/helpers/cafetefria_ground.png)
 
+
+## Image masking
+  Find the right hsv value to mask an image 
+  ![Masking](https://github.com/TINNP137/VIDEO-ANALYTICS-FOR-HUMAN-BEHAVIOR-TRACKING/blob/main/data/helpers/cafeteria_hsv.png)
 
