@@ -36,7 +36,7 @@ print(len(allxy))
 
 coordinate = []
 pts=[]
-image = cv2.imread("./data/video/cafetefria_no_people.png")
+image = cv2.imread("./data/helpers/cafetefria_no_people.png")
 # for i in range(0, len(all_x1)):
 #     coordinate.append((round(all_x1[i]), round(all_y1[i])))
 #     pts.append([round(all_x1[i]), round(all_y1[i])])
