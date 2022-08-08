@@ -36,7 +36,7 @@ Object tracking implemented with YOLOv4, DeepSort, and TensorFlow. The code is i
   - export annotation as "VGG JSON" or "COCO JSON"
 ## Fill the ROI polygon
   We use this image
-  ![Cafeteria no people](https://github.com/TINNP137/VIDEO-ANALYTICS-FOR-HUMAN-BEHAVIOR-TRACKING/blob/main/data/video/cafetefria_no_people.png)
+  ![Cafeteria no people](https://github.com/TINNP137/VIDEO-ANALYTICS-FOR-HUMAN-BEHAVIOR-TRACKING/blob/main/data/helpers/cafetefria_no_people.png)
 
   Run the code below to fill the roi 
   
@@ -44,3 +44,7 @@ Object tracking implemented with YOLOv4, DeepSort, and TensorFlow. The code is i
   ```bash
   python check_roi.py
   ```
+  Fill the polygon result 
+  ![Cafeteria no people](https://github.com/TINNP137/VIDEO-ANALYTICS-FOR-HUMAN-BEHAVIOR-TRACKING/blob/main/data/helpers/cafetefria_ground.png)
+
+
