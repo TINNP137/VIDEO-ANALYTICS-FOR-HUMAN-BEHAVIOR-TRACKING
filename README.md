@@ -28,16 +28,19 @@ Object tracking implemented with YOLOv4, DeepSort, and TensorFlow. The code is i
     # save yolov4-tiny model
     python save_model.py --weights ./data/yolov4-tiny.weights --output ./checkpoints/yolov4-tiny-416 --model yolov4 --tiny
   ```
+
 ## Get ROI (Region of Interest) coordinate
   We use [Makesense](https://www.makesense.ai/) to draw a polygon and the polygon coordinate
   - select object detection
   - select polygon
   - export annotation as "VGG JSON" or "COCO JSON"
 ## Fill the ROI polygon
+  We use this image
+  ![Cafeteria no people](https://github.com/TINNP137/VIDEO-ANALYTICS-FOR-HUMAN-BEHAVIOR-TRACKING/blob/main/data/video/cafetefria_no_people.png)
+
   Run the code below to fill the roi 
   
   ** don't forget to edit some variable in the code to suit your project
   ```bash
   python check_roi.py
   ```
-
