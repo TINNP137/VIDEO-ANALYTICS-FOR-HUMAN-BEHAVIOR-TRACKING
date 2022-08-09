@@ -66,4 +66,29 @@ Object tracking implemented with YOLOv4, DeepSort, and TensorFlow. The code is i
 
   ![Masking](https://github.com/TINNP137/VIDEO-ANALYTICS-FOR-HUMAN-BEHAVIOR-TRACKING/blob/main/data/helpers/cafeteria_mask.png)
 
+## Running the Tracker with YOLOv4
+  ```bash
+    # Run yolov4 deep sort object tracker on video
+    python object_tracker.py --video ./data/video/test.mp4 --output ./outputs/demo.avi --model yolov4
+
+    # Run yolov4 deep sort object tracker on webcam (set video flag to 0)
+    python object_tracker.py --video 0 --output ./outputs/webcam.avi --model yolov4
+  ```
+  The output flag allows you to save the resulting video of the object tracker running so that you can view it again later. Video will be saved to the path that you set. (outputs folder is where it will be if you run the above command!)
+
+  If you want to run yolov3 set the model flag to ``--model yolov3``, upload the yolov3.weights to the 'data' folder and adjust the weights flag in above commands. (see all the available command line flags and descriptions of them in a below section)
+## Running the Tracker with YOLOv4-Tiny (We use Yolov4-tiny in this project)
+  The following commands will allow you to run yolov4-tiny model. Yolov4-tiny allows you to obtain a higher speed (FPS) for the tracker at a slight cost to accuracy. Make sure that you have downloaded the tiny weights file and added it to the 'data' folder in order for commands to work!
+
+  ```bash
+    # Run yolov4 deep sort object tracker on video
+    python object_tracker_wheatmap_clean.py --weights ./checkpoints/yolov4-tiny-416 --model yolov4 --video ./data/video/cafeteria.mp4 --output ./outputs/cafeteria_out_video_tiny.avi --tiny
+  ```
+
+## Resulting Video
+  As mentioned above, the resulting video will save to wherever you set the --output command line flag path to. I always set it to save to the 'outputs' folder. You can also change the type of video saved by adjusting the --output_format flag, by default it is set to AVI codec which is XVID.
+
+  [Result](https://youtu.be/jsapjx3F_PM)
+
+  https://www.youtube.com/embed/jsapjx3F_PM
 
