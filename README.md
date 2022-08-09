@@ -90,5 +90,5 @@ Object tracking implemented with YOLOv4, DeepSort, and TensorFlow. The code is i
 
   [Result](https://youtu.be/jsapjx3F_PM)
 
-  https://www.youtube.com/embed/jsapjx3F_PM
+
 
