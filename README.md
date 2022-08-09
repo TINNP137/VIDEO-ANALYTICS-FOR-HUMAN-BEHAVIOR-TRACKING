@@ -90,5 +90,8 @@ Object tracking implemented with YOLOv4, DeepSort, and TensorFlow. The code is i
 
   [Result](https://youtu.be/jsapjx3F_PM)
 
-
+## Our group members
+  TINN PONGJITUMPAI - [TINNP137](https://github.com/TINNP137)
+  
+  NAPAT CHEEPMUANGMAN - [nc-mannequin](https://github.com/nc-mannequin)
 
